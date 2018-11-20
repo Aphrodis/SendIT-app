@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>User Profile</title>
+</head>
+<link rel="stylesheet" type="text/css" href="../css/userorders.css">
+<body>
+	<div class="topnav">
+	  <a href="#home"><b>Home</b></a>
+	  <a href="#news"><b>Create order</b></a>
+	  <a class="active" href="#myprofile"><b>My Profile</b></a>
+	  <a href="#contacts"><b>Contacts</b></a>
+	</div>
+	<div class="orders">
+		<div class="adminDelivary">
+			<h3>My Parcel Delivery Orders</h3>
+			<table id="title">
+				<tbody>
+					<tr>
+						<th><b>Date</b></th>
+						<th><b>Pickup Location</b></th>
+						<th><b>Destination</b></th>
+						<th><b>Weight</b></th>
+						<th><b>Price</b></th>
+						<th><b>Status</b></th>
+						<th><b>Cancel Order?</b></th>
+					</tr>							
+					<tr>
+						<td>Sept 2, 2018</td>
+						<td>Ghana</td>	
+						<td>Zimbabwe</td>		
+						<td>18</td>
+						<td>7200</td>
+						<td>Not Delivered</td>
+						<td>
+							<button type="button" class="btnCancelOrder">Cancel Order</button>
+						</td>			
+					</tr>							
+					<tr>
+						<td>Aug 23, 2018</td>
+						<td>Ethiopia</td>	
+						<td>Uganda</td>		
+						<td>7</td>
+						<td>1300</td>
+						<td>Not Delivered</td>	
+						<td>
+							<button type="button" class="btnCancelOrder" class="btn">Cancel Order</button>
+						</td>		
+					</tr>
+					<tr>
+						<td>Aug 19, 2018</td>
+						<td>Kenya</td>	
+						<td>Uganda</td>		
+						<td>10</td>
+						<td>520</td>
+						<td>In Transit</td>	
+						<td>
+							<button type="button" class="btnCancelOrder" class="btn">Cancel Order</button>
+						</td>		
+					</tr>
+					<tr>
+						<td>Aug 13, 2018</td>
+						<td>Rwanda</td>
+						<td>Kenya</td>		
+						<td>30</td>
+						<td>1000</td>
+						<td>In Transit</td>	
+						<td>
+							<button type="button" class="btnCancelOrder" class="btn">Cancel Order</button>
+						</td>	
+					</tr>
+					<tr>
+						<td>Jul 7, 2018</td>
+						<td>Burundi</td>
+						<td>Nigeria</td>		
+						<td>15</td>
+						<td>8000</td>
+						<td>Delivered</td>
+						<td>
+							<button type="button" class="btnCancelOrder" class="btn">Cancel Order</button>
+						</td>	
+					</tr>
+					<tr>
+						<td>May 30, 2018</td>
+						<td>Nigeria</td>
+						<td>Rwanda</td>		
+						<td>10</td>
+						<td>300</td>
+						<td>Delivered</td>
+						<td>
+							<button type="button" class="btnCancelOrder" class="btn">Cancel Order</button>
+						</td>	
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+		<h3>Summary about the orders made</h3>
+	<table id="summary">
+		<tr>
+			<th><b>All deliveries</b></th>
+			<th><b>Delivered</b></th>
+			<th><b>In transit</b></th>
+			<th><b>Not delivered</b></th>
+		</tr>
+		<tr>
+			<td>6</td>
+			<td>2</td>
+			<td>2</td>
+			<td>2</td>
+		</tr>
+	</table>
+	<script type="text/javascript" src="../js/userorders.js"></script>
+</body>
+</html>

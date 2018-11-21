@@ -4,8 +4,8 @@
   "description": "",
   "main": "deliveries.js",
   "scripts": {
-    "start":"node deliveries.js",
-    "test": "mocha"
+    "start": "nodemon deliveries.js",
+    "test": "mocha --exit"
   },
   "repository": {
     "type": "git",

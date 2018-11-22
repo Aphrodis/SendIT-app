@@ -4,7 +4,6 @@ const bodyParser = require('body-parser');
 const app = express();
 app.use(bodyParser.json());
 
-
 app.get('/',(req,res)=>{
 	res.redirect("/api/v1/parcels");
 });
@@ -18,6 +17,7 @@ const parcels = [
 
 
 //Creating a parcel delivery order
+
 app.post('/api/v1/parcels', (req, res) => {
 	let id = parcels.length+1;
 	let	owner = req.body.owner;

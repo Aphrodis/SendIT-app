@@ -5,41 +5,20 @@
 <link rel="stylesheet" type="text/css" href="../css/index1.css">
 </head>
 <body>
-
 <div class="topnav">
   <a class="active" href="#home"><b>Home</b></a>
-  <a href="#news"><b>Create order</b></a>
-  <a href="file:///E:/SendIT-app/UI/html/usersorders.html"><b>My Profile</b></a>
-  <a href="#about"><b>Contacts</b></a>
 </div>
-<div style="padding-left:16px">
   <h1><b>SendIT</b></h1>
-  <!-- <p>Delivery your parcels with us</p> -->
+  <p>Delivery your parcels with us</p>
     <div class="form">
       <form class="login-form">
         <input type="text" placeholder="Username" required/>
         <input type="password" placeholder="Password" required/>
-        <button a href="./deliveryorder.html">Login</button>
-        <a class="b1" href="">Forgot password?</a><br>
-        <p class="message">Not Registered? <a href="#">Register</a></p>
-      </form>
-      <form class="register-form">
-        <input type="text" placeholder="First name" required/>
-        <input type="text" placeholder="Last name" required/>
-        <input type="text" placeholder="Username" required/>
-        <input type="text" placeholder="E-mail" required/>
-        <input type="password" placeholder="Password" required/>
-        <input type="password" placeholder="Confirm Password" required/>
-        <button>Create Account</button>
-        <p class="message">Already Have an Account? <a href="#">Login</a></p>
+        <button><b><a href="./deliveryorder.html">Login</a></b></button>
+        <a class="b1" href="#">Forgot password?</a><br>
+        <p class="message">Not Registered? <a href="./index2.html">Register</a></p>
       </form>
     </div>
-  </div>
-  <script src='https://code.jquery.com/jquery-3.2.1.min.js'></script>
-  <script>$('.message a').click(function() {
-    $('form').animate({height:"toggle", opacity: "toggle"}, "slow");
-  });
-  </script>
-
+      <button id="btnorders"><a href="./ordersmade.html"><b>Admin</b></button>
 </body>
 </html>

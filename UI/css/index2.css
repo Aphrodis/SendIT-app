@@ -63,24 +63,14 @@ p{
   outline: 0;
   background: #4CAF50;
   width: 100%;
+  border: 0;
   padding: 15px;
   color: #ffffff;
-  font-size: 24px;
+  font-size: 14px;
   cursor: pointer;
 }
 .form button:hover, .form button:active{
   background: #43A047;
-}
-#btnorders{
-  color: #ffffff;
-  font-size: 34px;
-  cursor: pointer;
-  margin-bottom: 40px;
-  max-width: 230px;
-  /*margin: 0 auto 50px; */
-  text-align: center;
-  margin-top: -40px;
-  margin-left: 43%;
 }
 .form .message{
   margin: 15px 0 0;
@@ -91,7 +81,7 @@ p{
   color: black;
   text-decoration: none;
 }
-.form .register-form{
+.form .login-form {
   display: none;
 }
 .b1{

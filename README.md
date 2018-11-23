@@ -23,5 +23,27 @@ nodemon deliveries.js
 RUNNING TESTS
 
 npm test
+Example about checking if PUT endpoint work:
+
+describe("/PUT parcels/cancel",()=>{
+	it("The user with the identified id should be deleted",(done)=>{
+		let id ="5";
+		chai.request(app).put(`/api/v1/parcels/${id}/cancel`).end((error,res)=>{
+			res.should.have.status(200);
+			res.body.should.be.a('object');
+			done();
+		});
+	});
+
+	
+	it("The person with an identified id should be removed",(done)=>{
+		let id ="x";
+		chai.request(app).put(`/api/v1/parcels/${id}/cancel`).end((error,res)=>{
+			res.should.have.status(404);
+			res.body.should.be.a('object');
+			done();
+		});
+	});
+});
 
 

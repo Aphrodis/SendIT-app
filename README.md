@@ -20,6 +20,9 @@ RUNNING THE SERVER
 
 nodemon deliveries.js
 
-RUNNING TESTS
+TESTS
 
-npm test
+The tests test if the APIs function.
+
+Running tests: npm test
+

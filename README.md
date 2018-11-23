@@ -22,6 +22,6 @@ nodemon deliveries.js
 
 RUNNING TESTS
 
-npm run test
+npm test
 
 

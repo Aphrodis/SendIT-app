@@ -16,11 +16,11 @@ ENDPOINTS
 	
 `POST /api/v1/parcels`:Create a parcel delivery order
 
-Running the server
+RUNNING THE SERVER
 
 nodemon deliveries.js
 
-Running tests
+RUNNING TESTS
 
 npm run test
 

@@ -1,0 +1,27 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "deliveries.js",
+  "scripts": {
+    "start": "nodemon deliveries.js",
+    "test": "mocha --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aphrodis/SendIT-Andela-Developer-Challenge-2-APIs-.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aphrodis/SendIT-Andela-Developer-Challenge-2-APIs-/issues"
+  },
+  "homepage": "https://github.com/Aphrodis/SendIT-Andela-Developer-Challenge-2-APIs-#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mocha": "^5.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.6"
+  }
+}

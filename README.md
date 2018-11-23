@@ -20,6 +20,8 @@ RUNNING THE SERVER
 
 nodemon deliveries.js
 
+Installing dependencies: npm install
+
 TESTS
 
 The tests test if the APIs function.
